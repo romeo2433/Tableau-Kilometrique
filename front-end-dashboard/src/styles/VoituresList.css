@@ -1,0 +1,78 @@
+.car-list-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #1e293b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    color: white;
+    text-align: center;
+  }
+  
+  .car-list-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .car-list-container th, .car-list-container td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .car-list-container th {
+    background: #334155;
+  }
+  
+  .car-list-container tr:nth-child(even) {
+    background: #2d3748;
+  }
+  
+  .car-list-container tr:hover {
+    background: #4a5568;
+  }
+  
+  .edit-btn, .test-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background: #facc15;
+    color: black;
+  }
+  
+  .edit-btn:hover {
+    background: #eab308;
+  }
+  
+  .test-btn {
+    background: #dc2626;
+    color: white;
+    border: none;
+  }
+  
+  .test-btn:hover {
+    background: #b91c1c;
+  }
+  
+  .add-btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 10px 15px;
+    background: #2563eb;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .add-btn:hover {
+    background: #1e40af;
+  }
+  

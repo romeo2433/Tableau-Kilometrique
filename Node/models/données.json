@@ -1,0 +1,8 @@
+// Donnée création voitures
+{
+  "nom": "Tesla Model S",
+  "jauge_max": 100.0,
+  "vitesse_max": 250,
+  "acceleration": 20,
+  "consommation": 5
+}
